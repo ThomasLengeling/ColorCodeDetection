@@ -70,6 +70,8 @@ public:
             ofImage img;
             mImageColors.push_back(img);
         }
+
+        step = 2;
     }
 
     static ColorDetectionRef create(){
@@ -81,6 +83,7 @@ public:
 
  std::vector<ofImage> getImgVec(){return mImageColors;}
 
+ void compress();
 
 private:
 
@@ -89,5 +92,8 @@ private:
     ofImage imgDst;
 
     std::vector<ofImage> mImageColors;
+
+    int step;
+    ofImage outImage;
 
 };

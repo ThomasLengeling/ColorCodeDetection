@@ -1,5 +1,7 @@
 #include "ColorMatrix.h"
 
+void ColorMatrix::updateColorMatrix() {}
+
 void ColorMatrix::drawMatrix(int posx, int posy) {
 
   for (int i = 0; i < mColums; i++) {
@@ -9,10 +11,11 @@ void ColorMatrix::drawMatrix(int posx, int posy) {
 
       for (int l = 0; l < tile->getColums(); l++) {
         for (int k = 0; k < tile->getRows(); k++) {
+
           int indexLK = k * tile->getColums() + l;
           auto colorType = tile->getColorVector();
 
-          ColorTypeRef = colorType->at(indexLK);
+          ColorTypeRef colortype = colorType.at(indexLK);
 
           // now we draw each point
         }

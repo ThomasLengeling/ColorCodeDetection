@@ -3,7 +3,7 @@
 #include "ofMain.h"
 
 #include "ColorTile.h"
-#include "ColorType.h"
+#include "ColorTypes.h"
 
 #include <memory>
 
@@ -47,6 +47,5 @@ private:
     int mRows;
 
     std::vector<ColorTileRef> mTileMatrix;
-
-
+    
 };

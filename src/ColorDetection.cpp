@@ -1,5 +1,6 @@
 #include "ColorDetection.h"
 
+// reading all the pixels.
 void ColorDetection::processColor(ofPixels pixels) {
   cv::Mat imgOriginal = ofxCv::toCv(pixels);
   cv::Mat imgHSV;
@@ -65,4 +66,15 @@ void ColorDetection::processColor(ofPixels pixels) {
 
   ofxCv::toOf(imgBlue, mImageColors.at(3));
   mImageColors.at(3).update();
+}
+
+// make the image detection smaller.
+void ColorDetection::compress() {
+  int i = 0;
+  int components = imgDst.bpp / 8;
+  for (auto const &imgItr : mImageColors) {
+    ofPixels pix = imgItr->getPixels();
+    for (int y = 0; y < image.height; y++) {
+    }
+  }
 }

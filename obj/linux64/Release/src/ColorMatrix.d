@@ -509,7 +509,9 @@ obj/linux64/Release/src/ColorMatrix.o: \
  /home/thomas/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h \
  /home/thomas/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h \
  /home/thomas/openFrameworks/libs/openFrameworks/3d/ofCamera.h \
- /home/thomas/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h
+ /home/thomas/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h \
+ /home/thomas/openFrameworks/apps/myApps/ColorCodeDetection/src/ColorTile.h \
+ /home/thomas/openFrameworks/apps/myApps/ColorCodeDetection/src/ColorTypes.h
 
 /home/thomas/openFrameworks/apps/myApps/ColorCodeDetection/src/ColorMatrix.h:
 
@@ -1564,3 +1566,7 @@ obj/linux64/Release/src/ColorMatrix.o: \
 /home/thomas/openFrameworks/libs/openFrameworks/3d/ofCamera.h:
 
 /home/thomas/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h:
+
+/home/thomas/openFrameworks/apps/myApps/ColorCodeDetection/src/ColorTile.h:
+
+/home/thomas/openFrameworks/apps/myApps/ColorCodeDetection/src/ColorTypes.h:
